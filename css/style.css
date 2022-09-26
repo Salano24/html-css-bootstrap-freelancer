@@ -1,0 +1,29 @@
+.bg_dark{
+    background-color:#2c3e50 ;
+}
+
+/* #region DEBUG */
+.jumbo{
+    height: 700px;
+    background-color: aquamarine;
+}
+
+.portfolio .col-sm-12{
+    height: 150px;
+    background-color: blue;
+}
+
+.about{
+    background-color: rgb(57, 152, 120);
+}
+/* #endregion DEBUG */
+
+/* #region CONTACT ME */
+ .contact_me{
+    width: 80%;
+ }
+
+ .message{
+    margin-top: 5rem;
+ }
+/* #endregion CONTACT ME */
