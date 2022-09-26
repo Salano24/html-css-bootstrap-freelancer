@@ -1,16 +1,16 @@
+
+/* #region DEBUG */
 .bg_dark{
     background-color:#2c3e50 ;
 }
-
-/* #region DEBUG */
 .jumbo{
-    height: 700px;
+
     background-color: aquamarine;
 }
 
 .portfolio .col-sm-12{
-    height: 150px;
-    background-color: blue;
+ background-color: blue;
+ height: 150px;
 }
 
 .about{
@@ -27,3 +27,7 @@
     margin-top: 5rem;
  }
 /* #endregion CONTACT ME */
+
+/* #region PORTFOLIO */
+
+/* #endregion PORTFOLIO */
