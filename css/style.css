@@ -1,22 +1,33 @@
 
-/* #region DEBUG */
-.bg_dark{
-    background-color:#2c3e50 ;
-}
-.jumbo{
-
-    background-color: aquamarine;
+/* #region HEADER */
+.navbar_blue, header{
+    background-color: #2c3e50;
 }
 
-.portfolio .col-sm-12{
- background-color: blue;
- height: 150px;
-}
+/* #endregion HEADER */
+
+/* #region ABOUT */
 
 .about{
-    background-color: rgb(57, 152, 120);
+    background-color: #1abc9c;
 }
-/* #endregion DEBUG */
+
+.container_70{
+    width: 70%;
+    margin: auto;
+}
+/* #endregion ABOUT */
+
+/* #region JUMBO */
+.jumbo img{
+    width: 20vh;
+}
+
+.jumbo{
+
+    background-color: #1abc9c;
+}
+/* #endregion JUMBO */
 
 /* #region CONTACT ME */
  .contact_me{
@@ -26,8 +37,50 @@
  .message{
     margin-top: 5rem;
  }
+
+ .btn_aquagreen{
+   border: 1px solid white;
+    background-color: #1abc9c;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+ }
+
+ .text_dark{
+    color: #2c3e50;
+ }
+
+ .circle{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin-left: 0.5rem;
+ }
 /* #endregion CONTACT ME */
 
 /* #region PORTFOLIO */
-
+.portfolio img{
+    max-width: 100%;
+    margin-bottom: 4vh;
+}
 /* #endregion PORTFOLIO */
+
+/* #region INFO */
+.info{
+    width: 90%;
+    
+ }
+.bg_light_dark{
+    padding: 2rem 0;
+    background-color:  #3a546d;
+}
+ .start_bootstrap{
+    color: #50cbb2;
+ }
+
+ /* #endregion INFO */
+
+ /* #region FOOTER */ 
+ .bg_dark{
+    background-color: #2c3e50;
+ }
+ /* #endregion FOOTER */
